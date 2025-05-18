@@ -285,7 +285,7 @@ export default function Portfolio() {
                     <Mail className="text-blue-500 mr-3" size={24} />
                     <div>
                       <p className="text-sm text-gray-500">Email</p>
-                      <p className="text-gray-800">contact@example.com</p>
+                      <p className="text-gray-800">rpc4524@gmail.com</p>
                     </div>
                   </div>
                   
