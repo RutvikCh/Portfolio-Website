@@ -6,6 +6,34 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Real-Time Chat Application",
+      duration: "Jan 2025 — Feb 2025",
+      technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "JWT", "Cookies"],
+      links: [
+        { url: "https://github.com/RutvikCh", type: "github" }
+      ],
+      description: [
+        "Built a full-stack real-time chat application using MERN stack for instant messaging.",
+        "Implemented JWT-based authentication with secure cookie storage for user sessions.",
+        "Integrated real-time bidirectional communication between users.",
+        "Designed responsive UI with message threading, online status indicators, and typing indicators."
+      ]
+    },
+    {
+      title: "Spam Email Detection & Movie Recommendation System",
+      duration: "Dec 2024 — Jan 2025",
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Natural Language Processing", "Machine Learning"],
+      links: [
+        { url: "https://github.com/RutvikCh", type: "github" }
+      ],
+      description: [
+        "Developed a spam email classification system using Natural Language Processing and machine learning algorithms.",
+        "Built a movie recommendation system using collaborative filtering and content-based filtering techniques.",
+        "Implemented text preprocessing, feature extraction, and model training for email classification.",
+        "Achieved high accuracy in spam detection and personalized movie recommendations based on user preferences."
+      ]
+    },
+    {
       title: "Data Structures & Algorithms (DSA) Practice",
       duration: "Jul 2024 — Present",
       technologies: ["C++"],
@@ -59,12 +87,12 @@ export default function Portfolio() {
               <a href="https://github.com/RutvikCh" target="_blank" className="text-gray-500 hover:text-gray-700">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-gray-500 hover:text-gray-700">
+              <a href="https://www.linkedin.com/in/rutvik-p-chaudhari-a9595a28a" className="text-gray-500 hover:text-gray-700">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:contact@example.com" className="text-gray-500 hover:text-gray-700">
+              {/* <a href="mailto:contact@example.com" className="text-gray-500 hover:text-gray-700">
                 <Mail size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -77,7 +105,7 @@ export default function Portfolio() {
             Rutvik Chaudhari
           </h1>
           <p className="mt-6 text-xl text-gray-500 max-w-2xl mx-auto">
-            Software Developer with expertise in React, Tailwind CSS, and Machine Learning
+            Full-Stack Developer | MERN Stack | AI/ML | React.js Specialist
           </p>
         </div>
       </div>
@@ -136,13 +164,20 @@ export default function Portfolio() {
             <div className="prose max-w-none">
               <h2 className="text-2xl font-bold mb-4">About Me</h2>
               <p className="text-lg text-gray-700">
-                I am a passionate software developer with a strong focus on creating efficient and user-friendly applications. 
-                My expertise spans across frontend development with React.js and Tailwind CSS, as well as data science and machine learning using Python.
+                I am a passionate full-stack developer with expertise in the MERN stack and modern web technologies. 
+                My experience includes building real-time applications, implementing secure authentication systems, and developing machine learning solutions.
               </p>
               <p className="text-lg text-gray-700 mt-4">
-                With a solid foundation in data structures and algorithms, I approach problems methodically to find optimized solutions.
-                I enjoy building applications that not only solve real-world problems but also provide an excellent user experience.
+                Recently completed a remote AI/ML internship at Jayadhi Limited (UK), where I gained valuable industry experience in artificial intelligence and machine learning applications.
+                With a solid foundation in data structures and algorithms, I approach problems methodically to create efficient, scalable solutions.
               </p>
+              <div className="mt-6 p-4 bg-blue-50 rounded-lg">
+                <h3 className="font-semibold text-gray-900 mb-2">Professional Experience</h3>
+                <p className="text-gray-700">
+                  <strong>AI/ML Intern</strong> - Jayadhi Limited, UK (Remote) | 1 Month<br/>
+                  Worked on artificial intelligence and machine learning projects, gaining hands-on experience with industry-standard practices and technologies.
+                </p>
+              </div>
             </div>
           )}
 
@@ -201,7 +236,7 @@ export default function Portfolio() {
             <div>
               <h2 className="text-2xl font-bold mb-6">Skills</h2>
               
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="bg-white shadow-md rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Programming Languages</h3>
                   <ul className="space-y-2">
@@ -239,6 +274,28 @@ export default function Portfolio() {
                 </div>
                 
                 <div className="bg-white shadow-md rounded-lg p-6">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4">Backend Development</h3>
+                  <ul className="space-y-2">
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      <span>Node.js</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      <span>Express.js</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      <span>MongoDB</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      <span>JWT Authentication</span>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="bg-white shadow-md rounded-lg p-6">
                   <h3 className="text-lg font-semibold text-gray-900 mb-4">Data Science & ML</h3>
                   <ul className="space-y-2">
                     <li className="flex items-center">
@@ -251,6 +308,10 @@ export default function Portfolio() {
                     </li>
                     <li className="flex items-center">
                       <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
+                      <span>NLP</span>
+                    </li>
+                    <li className="flex items-center">
+                      <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
                       <span>Seaborn/Matplotlib</span>
                     </li>
                   </ul>
@@ -260,9 +321,12 @@ export default function Portfolio() {
               <div className="mt-8 bg-white shadow-md rounded-lg p-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-4">Other Skills</h3>
                 <div className="flex flex-wrap gap-3">
+                  <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">MERN Stack</span>
+                  <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Real-time Applications</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Data Structures</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Algorithms</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Problem Solving</span>
+                  <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Natural Language Processing</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Regression Models</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">Data Visualization</span>
                   <span className="bg-gray-100 px-3 py-1 rounded-full text-gray-700">UI/UX Design</span>
@@ -281,13 +345,6 @@ export default function Portfolio() {
                 </p>
                 
                 <div className="space-y-4">
-                  <div className="flex items-center">
-                    <Mail className="text-blue-500 mr-3" size={24} />
-                    <div>
-                      <p className="text-sm text-gray-500">Email</p>
-                      <p className="text-gray-800">rpc4524@gmail.com</p>
-                    </div>
-                  </div>
                   
                   <div className="flex items-center">
                     <Github className="text-blue-500 mr-3" size={24} />
@@ -303,14 +360,16 @@ export default function Portfolio() {
                     <Linkedin className="text-blue-500 mr-3" size={24} />
                     <div>
                       <p className="text-sm text-gray-500">LinkedIn</p>
-                      <p className="text-gray-800">linkedin.com/in/rutvikchaudhari</p>
+                      <a href="https://www.linkedin.com/in/rutvik-p-chaudhari-a9595a28a" className="text-blue-600 hover:text-blue-800">
+                        Linkedin
+                      </a>
                     </div>
                   </div>
                 </div>
                 
                 <div className="mt-8">
                   <h3 className="text-lg font-semibold mb-4">Send me a message</h3>
-                  <form className="space-y-4">
+                  <div className="space-y-4">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
                       <input 
@@ -323,7 +382,7 @@ export default function Portfolio() {
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
                       <input 
-                        type="email" 
+                        type="text" 
                         id="email" 
                         className="mt-1 block w-full border-gray-300 rounded-md shadow-sm p-2 border focus:ring-blue-500 focus:border-blue-500" 
                       />
@@ -339,12 +398,12 @@ export default function Portfolio() {
                     </div>
                     
                     <button 
-                      type="button" 
+                      onClick={() => alert('Message sent!')}
                       className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       Send Message
                     </button>
-                  </form>
+                  </div>
                 </div>
               </div>
             </div>
