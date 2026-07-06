@@ -271,7 +271,7 @@ export default function Portfolio() {
             <button onClick={() => scrollTo("projects")} style={{ padding: ".75rem 2rem", background: "#00c9a7", color: "#000", fontFamily: "'Syne',sans-serif", fontWeight: 700, fontSize: ".8rem", letterSpacing: ".05em", border: "none", borderRadius: 4, cursor: "pointer", textTransform: "uppercase" }}>
               View Projects
             </button>
-            <a href="mailto:chaudharirutvik110@gmail.com" className="hire-btn">Hire Me →</a>
+            <a href="mailto:rpc4524@gmail.com" className="hire-btn">Hire Me →</a>
           </div>
           <div style={{ display: "flex", gap: "2.5rem", flexWrap: "wrap" }}>
             {[["9+", "Projects Built"], ["8.00", "CGPA · B.Tech CSE"], ["3+", "AI/ML Models"], ["1", "Freelance Client"]].map(([num, label]) => (
@@ -415,7 +415,7 @@ export default function Portfolio() {
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "3rem" }}>
             <div>
               {[
-                { icon: "✉", label: "Email",    val: "chaudharirutvik110@gmail.com", href: "mailto:chaudharirutvik110@gmail.com" },
+                { icon: "✉", label: "Email",    val: "rpc4524@gmail.com", href: "mailto:rpc4524@gmail.com" },
                 { icon: "📍", label: "Location", val: "Kheralu, Mehsana, Gujarat",   href: null },
               ].map(c => (
                 <div key={c.label} style={{ display: "flex", alignItems: "flex-start", gap: "1rem", marginBottom: "1.5rem" }}>
@@ -441,7 +441,7 @@ export default function Portfolio() {
                   </span>
                 ))}
               </div>
-              <a href="mailto:chaudharirutvik110@gmail.com" style={{ display: "inline-block", padding: ".75rem 2rem", background: "#00c9a7", color: "#000", fontFamily: "'Syne',sans-serif", fontWeight: 700, fontSize: ".8rem", letterSpacing: ".05em", borderRadius: 4, textDecoration: "none", textTransform: "uppercase" }}>Send Email →</a>
+              <a href="mailto:rpc4524@gmail.com" style={{ display: "inline-block", padding: ".75rem 2rem", background: "#00c9a7", color: "#000", fontFamily: "'Syne',sans-serif", fontWeight: 700, fontSize: ".8rem", letterSpacing: ".05em", borderRadius: 4, textDecoration: "none", textTransform: "uppercase" }}>Send Email →</a>
             </div>
           </div>
         </div>
